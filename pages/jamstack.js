@@ -6,7 +6,7 @@ export async function getStaticProps() {
   }
 
   function JamstackPage( jamstack) {
-    return <div><h1>{jamstack.title}</h1><div>{jamstack.content}</div> <img src="http://localhost:1337/uploads/conf_2022_tout_new_c54695f861.png"  alt="Jamstack Conference"/></div> 
+    return <div><h1>{jamstack.title}</h1><div>{jamstack.content}</div> <img src="https://1162-3-123-179-53.eu.ngrok.io/uploads/conf_2022_tout_new_c54695f861.png"  alt="Jamstack Conference"/></div> 
   }
 
   export default JamstackPage
